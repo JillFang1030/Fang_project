@@ -1,0 +1,16 @@
+name: nirs_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - mne-base           # MNE 是腦電/近紅外光的基礎框架
+  - jupyter
+  - pip:
+    - mne-nirs         # 專門用於 fNIRS 分析的擴充包
+    - nilearn          # 雖然妳用 NIRS，但 nilearn 的繪圖工具在腦科學中依然通用
+    - -e .
