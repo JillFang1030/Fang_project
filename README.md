@@ -1,3 +1,14 @@
+# Fang Project
+
+## Project Overview
+This project aims to implement a reproducible neuroimaging analysis pipeline.
+
+## Project Structure (TIER Protocol Standard)
+- `data/`: Contains raw and processed datasets (following BIDS spirit).
+- `src/`: Source code and analysis scripts.
+- `results/`: Output from the analysis pipeline.
+- `docs/`: Project documentation and metadata information.
+
 <h1 align="center">Fang Project</h1>
 
 <p align="center">
