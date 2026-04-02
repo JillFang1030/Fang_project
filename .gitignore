@@ -1,0 +1,10 @@
+# Python 暫存檔
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook 暫存垃圾 (這就是妳現在看到的那個)
+.ipynb_checkpoints
+
+# 妳剛才產生的套件資訊
+*.egg-info/
